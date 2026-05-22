@@ -37,3 +37,19 @@ To build a machine learning regression framework capable of estimating the next 
 ### 🔑 Key Results & Findings
 * The Linear Regression model accurately mirrors directional trends with a strong baseline R2 metric.
 * Feature checking indicates that the immediate day's high/low boundary thresholds act as the most significant weights for predicting immediate next-day variations.
+
+## Task 3: Heart Disease Prediction (Classification)
+
+### 📌 Objective
+To configure a binary health analytics classifier capable of accurately segmenting high-risk cardiac vectors from standard metrics using machine learning diagnostic protocols.
+
+### 📊 Dataset Used
+* **Source:** UCI Processed Cleveland Heart Dataset
+* **Target Mapping:** 0 (Healthy Control Baseline Value), 1 (Risk Group Present)
+
+### 🛠️ Models Applied
+* Logistic Regression classification framework utilizing dynamic threshold assignment evaluation profiles.
+
+### 🔑 Key Results & Findings
+* **Diagnostic Precision:** The confusion matrix metrics demonstrate robust true-negative classification rates, vital for mitigating medical misclassification.
+* **Feature Weights:** Parameters including 'ca' (number of major vessels) and 'thal' display highly significant prediction weights during classification tasks.
