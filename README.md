@@ -19,3 +19,21 @@ To load, inspect, and analyze the classic Iris dataset using exploratory data an
 * **Data Integrity:** The dataset contains 150 entries across 5 columns with zero missing (null) values, making it highly reliable for analysis.
 * **Species Distinctness:** Visual plots confirm that the *Setosa* species forms a completely distinct cluster with significantly smaller petal lengths and widths compared to *Versicolor* and *Virginica*.
 * **Feature Corellation:** A clear positive linear relationship is visible between petal length and petal width across all species.
+
+## Task 2: Predict Future Stock Prices (Short-Term)
+
+### 📌 Objective
+To build a machine learning regression framework capable of estimating the next day's closing financial asset value using historical market markers.
+
+### 📊 Dataset Used
+* **Source:** Yahoo Finance (via `yfinance` API)
+* **Ticker Analyzed:** AAPL (Apple Inc.)
+* **Features Used:** Open, High, Low, Volume
+
+### 🛠️ Models & Libraries Applied
+* `scikit-learn` for Linear Regression training and splitting metrics.
+* `yfinance` for automated historical data acquisition.
+
+### 🔑 Key Results & Findings
+* The Linear Regression model accurately mirrors directional trends with a strong baseline R2 metric.
+* Feature checking indicates that the immediate day's high/low boundary thresholds act as the most significant weights for predicting immediate next-day variations.
