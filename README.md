@@ -53,3 +53,19 @@ To configure a binary health analytics classifier capable of accurately segmenti
 ### 🔑 Key Results & Findings
 * **Diagnostic Precision:** The confusion matrix metrics demonstrate robust true-negative classification rates, vital for mitigating medical misclassification.
 * **Feature Weights:** Parameters including 'ca' (number of major vessels) and 'thal' display highly significant prediction weights during classification tasks.
+
+## Task 6: House Price Prediction (Regression)
+
+### 📌 Objective
+To implement an advanced regression framework capable of analyzing real estate features (such as demographic data and geographic metrics) to accurately estimate property valuation.
+
+### 📊 Dataset Used
+* **Source:** California Housing Dataset (via Scikit-Learn)
+* **Features:** Median Income, House Age, Average Rooms, Average Bedrooms, Population, Average Occupancy, Latitude, and Longitude.
+
+### 🛠️ Models Applied
+* Gradient Boosting Regressor (an ensemble learning method for optimizing regression accuracy).
+
+### 🔑 Key Results & Findings
+* **Model Accuracy:** The Gradient Boosting model successfully captured data non-linearities, resulting in low MAE and RMSE scores.
+* **Economic Drivers:** Exploratory analysis confirmed that the median income of an area is the single strongest statistical predictor of overall property value.
